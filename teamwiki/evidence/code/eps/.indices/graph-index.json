@@ -1,0 +1,2955 @@
+{
+  "schemaVersion": "team-wiki.graph-index.v1",
+  "generatedAt": "2026-09-02T15:06:07.859Z",
+  "nodes": [
+    {
+      "slug": "component/GatewayServerApplication",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GatewayServerApplication",
+      "domain": "gateway"
+    },
+    {
+      "slug": "component/InfraServerApplication",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "InfraServerApplication",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/SecmanStudentServiceApplication",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SecmanStudentServiceApplication",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/SystemServerApplication",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SystemServerApplication",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CodegenService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CodegenService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/ConfigService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ConfigService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/DatabaseTableService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DatabaseTableService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/DataSourceConfigService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DataSourceConfigService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/FileConfigService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "FileConfigService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/FileService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "FileService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ApiAccessLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ApiAccessLogService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/ApiErrorLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ApiErrorLogService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/AigcConfigService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AigcConfigService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AigcService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AigcService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/@Service:AigcService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:AigcService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "error/IllegalArgumentException",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "IllegalArgumentException",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/AiDialogueContextService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AiDialogueContextService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/@Service:AiDialogueContextService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:AiDialogueContextService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/DialogueRecordService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DialogueRecordService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AnswerRecordService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AnswerRecordService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AppExperimentFunctionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentFunctionService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AppExperimentPersonService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentPersonService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AppExperimentService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AppOrgService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AppOrgService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/AppPeriodNotificationService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AppPeriodNotificationService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/CaseSnapService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseSnapService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ElderlyRedistributionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ElderlyRedistributionService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/EventLifecycleService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "EventLifecycleService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ExperimentLifecycleService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ExperimentLifecycleService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ExperimentService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ExperimentService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ExpEventService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ExpEventService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupIndicatorService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupIndicatorService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupMemberAccessService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupMemberAccessService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupMemberCharacterService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupMemberCharacterService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupMemberService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupMemberService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/GroupTemplateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GroupTemplateService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/JudgeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "JudgeService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/PeriodScheduleService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PeriodScheduleService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/PersonBusinessService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PersonBusinessService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/PersonIndicatorValueService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PersonIndicatorValueService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/PersonService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PersonService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/RankListItemService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "RankListItemService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/RankListService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "RankListService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ReportGroupService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ReportGroupService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ReportService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ReportService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/ArchiveService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ArchiveService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/AssessService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AssessService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/AdminAuthService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AdminAuthService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/BusinessBindService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "BusinessBindService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/BusinessInstitutionFileService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "BusinessInstitutionFileService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/BusinessInstitutionQuestionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "BusinessInstitutionQuestionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/BusinessService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "BusinessService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseArrangementService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseArrangementService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseBusinessFunctionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseBusinessFunctionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseBusinessService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseBusinessService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseExperimentModeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseExperimentModeService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseGridService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseGridService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseInfoService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseInfoService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseInstitutionFileService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseInstitutionFileService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseInstitutionQuestionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseInstitutionQuestionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseOrgService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseOrgService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseSnapshotService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseSnapshotService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseWeightService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseWeightService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseQuestionPreviewService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseQuestionPreviewService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CategoryService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CategoryService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CharacterService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CharacterService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ClazzService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ClazzService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CrwPlatformService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CrwPlatformService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/DeptService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DeptService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/PostService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PostService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/DialogueMaterialService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DialogueMaterialService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/DialogueSynonymService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DialogueSynonymService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/DictDataService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DictDataService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/DictTypeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "DictTypeService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/FunctionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "FunctionService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AbstractIndicatorPreviewService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AbstractIndicatorPreviewService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorCategoryService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorCategoryService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/CaseEvalIndicatorService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "CaseEvalIndicatorService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorTemplatePreviewService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorTemplatePreviewService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorTemplateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorTemplateService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorTemplateCategoryService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorTemplateCategoryService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorTemplateIndicatorService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorTemplateIndicatorService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/IndicatorTemplateIndicatorWeightService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "IndicatorTemplateIndicatorWeightService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/InstitutionFileService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "InstitutionFileService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/InstitutionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "InstitutionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/LoginLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "LoginLogService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OperateLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OperateLogService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MailAccountService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MailAccountService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MailLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MailLogService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MailSendService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MailSendService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MailTemplateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MailTemplateService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MemberService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MemberService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/NoticeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "NoticeService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/NotifyMessageService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "NotifyMessageService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/NotifySendService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "NotifySendService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/NotifyTemplateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "NotifyTemplateService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OAuth2ApproveService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OAuth2ApproveService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OAuth2ClientService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OAuth2ClientService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OAuth2CodeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OAuth2CodeService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OAuth2GrantService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OAuth2GrantService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OAuth2TokenService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OAuth2TokenService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OperateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OperateService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/OrgService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "OrgService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/DataPermissionService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DataPermissionService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/@Service:DataPermissionService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:DataPermissionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/MenuService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MenuService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/PermissionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PermissionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/RoleService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "RoleService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AigcSemanticMatchService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AigcSemanticMatchService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/@Service:AigcSemanticMatchService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:AigcSemanticMatchService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/PersonDialogueMaterialService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PersonDialogueMaterialService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/FeedbackService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "FeedbackService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/PortalService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "PortalService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/TrialApplicationService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TrialApplicationService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ProdArrangementService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ProdArrangementService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ProdGridService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ProdGridService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ProdOrgService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ProdOrgService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ProductService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ProductService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/ProdWeightService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "ProdWeightService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/QuestionOptionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "QuestionOptionService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/QuestionService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "QuestionService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/ReferenceCheckService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ReferenceCheckService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/@Service:ReferenceCheckService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:ReferenceCheckService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SmsChannelService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SmsChannelService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SmsCodeService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SmsCodeService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SmsLogService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SmsLogService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SmsSendService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SmsSendService",
+      "domain": "system"
+    },
+    {
+      "slug": "error/UnsupportedOperationException",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "UnsupportedOperationException",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SmsTemplateService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SmsTemplateService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SocialClientService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SocialClientService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/SocialUserService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SocialUserService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/TenantCaseAssignmentService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TenantCaseAssignmentService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/@Service:TenantCaseAssignmentService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:TenantCaseAssignmentService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/TenantPackageService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TenantPackageService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/TenantService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TenantService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/TenantSyncSnapshotService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TenantSyncSnapshotService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/AdminUserService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "AdminUserService",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/UserClazzService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "UserClazzService",
+      "domain": "system"
+    },
+    {
+      "slug": "component/TenantDataCopyService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TenantDataCopyService",
+      "domain": "framework"
+    },
+    {
+      "slug": "component/@Service:TenantDataCopyService",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "@Service:TenantDataCopyService",
+      "domain": "framework"
+    },
+    {
+      "slug": "error/RuntimeException",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "RuntimeException",
+      "domain": "framework"
+    },
+    {
+      "slug": "interface/TenantFrameworkService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TenantFrameworkService",
+      "domain": "framework"
+    },
+    {
+      "slug": "interface/SecurityFrameworkService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "SecurityFrameworkService",
+      "domain": "framework"
+    },
+    {
+      "slug": "interface//infra/codegen",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/codegen",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/CodegenController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CodegenController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:CodegenController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CodegenController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//db/table/list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/db/table/list",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//table/list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/table/list",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//table/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/table/page",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//detail",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/detail",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//create-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/create-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//update",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/update",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//sync-from-db",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/sync-from-db",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//delete",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/delete",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//preview",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/preview",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//download",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/download",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/config",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/config",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/ConfigController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:ConfigController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//create",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/create",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//delete-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/delete-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//get",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//get-value-by-key",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-value-by-key",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/page",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//export",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/export",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/data-source-config",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/data-source-config",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/DataSourceConfigController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DataSourceConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:DataSourceConfigController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:DataSourceConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//infra/file-config",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/file-config",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/FileConfigController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "FileConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:FileConfigController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:FileConfigController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//update-master",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/update-master",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//test",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/test",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/file",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/file",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/FileController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "FileController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:FileController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:FileController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//upload",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/upload",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//domain",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/domain",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//presigned-url",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/presigned-url",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//{configId}/get/**",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/{configId}/get/**",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//compress",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/compress",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/job",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/job",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/JobController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "JobController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:JobController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:JobController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/api-access-log",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/api-access-log",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/ApiAccessLogController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ApiAccessLogController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:ApiAccessLogController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ApiAccessLogController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//export-excel",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/export-excel",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//infra/api-error-log",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/api-error-log",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/ApiErrorLogController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ApiErrorLogController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:ApiErrorLogController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ApiErrorLogController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//update-status",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/update-status",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//infra/redis",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/infra/redis",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/RedisController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "RedisController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:RedisController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:RedisController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//get-monitor-info",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-monitor-info",
+      "domain": "infra"
+    },
+    {
+      "slug": "component/AppFileController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppFileController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/@Controller:AppFileController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppFileController",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/Demo01ContactService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "Demo01ContactService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/Demo02CategoryService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "Demo02CategoryService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface/Demo03StudentService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "Demo03StudentService",
+      "domain": "infra"
+    },
+    {
+      "slug": "interface//secman/case-snap",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/case-snap",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/CaseSnapController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaseSnapController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:CaseSnapController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaseSnapController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/experiment",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/experiment",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/ExperimentController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ExperimentController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:ExperimentController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ExperimentController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//uniform-start",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/uniform-start",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//pause",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/pause",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//resume",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/resume",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/group",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/group",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/GroupController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:GroupController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:GroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/group-member",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/group-member",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/GroupMemberController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GroupMemberController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:GroupMemberController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:GroupMemberController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/group/template",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/group/template",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/GroupTemplateController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GroupTemplateController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:GroupTemplateController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:GroupTemplateController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/judge",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/judge",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/JudgeController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "JudgeController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:JudgeController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:JudgeController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/rank-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/rank-list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/RankListController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "RankListController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:RankListController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:RankListController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/report",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/report",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/ReportController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ReportController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:ReportController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ReportController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/report/group",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/report/group",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/ReportGroupController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ReportGroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:ReportGroupController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ReportGroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/crw-platform",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/crw-platform",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/CrwPlatformController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CrwPlatformController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:CrwPlatformController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CrwPlatformController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//experiment/create",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/experiment/create",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//experiment/score/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/experiment/score/page",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//experiment/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/experiment/page",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/approval",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/approval",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppApprovalController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppApprovalController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppApprovalController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppApprovalController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//submit",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/submit",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//approve",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/approve",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//reject",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/reject",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//refuse",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/refuse",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//detail/{processId}",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/detail/{processId}",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//pending-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/pending-list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//exp-record-list-by-experiment",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/exp-record-list-by-experiment",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//exp-record-list-by-member",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/exp-record-list-by-member",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//exp-record-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/exp-record-list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//exp-record-by-process",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/exp-record-by-process",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/dialogue-record",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/dialogue-record",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/DialogueRecordController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DialogueRecordController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:DialogueRecordController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:DialogueRecordController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//ai-dialogue",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/ai-dialogue",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//ai-dialogue-stream",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/ai-dialogue-stream",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//ai-dialogue-stop",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/ai-dialogue-stop",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppEventController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppEventController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppEventController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppEventController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//experiment/event/get",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/experiment/event/get",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/experiment/",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/experiment/",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//dashboard",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/dashboard",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//my",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/my",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//server-time",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/server-time",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/experiment/function",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/experiment/function",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentFunctionController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentFunctionController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentFunctionController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentFunctionController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//list-business-functions",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/list-business-functions",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//list-function-questions",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/list-function-questions",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//get-function-person",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-function-person",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//save-question",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/save-question",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//institution/category-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/institution/category-list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//list-institution-questions",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/list-institution-questions",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//file/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/page",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AppExperimentGroupController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentGroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentGroupController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentGroupController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//rename",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/rename",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/indicator",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/indicator",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentIndicatorController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentIndicatorController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentIndicatorController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentIndicatorController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//home",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/home",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//group/current",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/group/current",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//group/logs",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/group/logs",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//group/limit",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/group/limit",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//showOnSecondBoard",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/showOnSecondBoard",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/member",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/member",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentMemberController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentMemberController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentMemberController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentMemberController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//enter",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/enter",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//leave",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/leave",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/person",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/person",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentPersonController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentPersonController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentPersonController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentPersonController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//top",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/top",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/experiment/rank/",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/experiment/rank/",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentRankListController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentRankListController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentRankListController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentRankListController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//items/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/items/page",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//items/export-excel",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/items/export-excel",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/experiment/score-test",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/experiment/score-test",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppExperimentScoreTestController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppExperimentScoreTestController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppExperimentScoreTestController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppExperimentScoreTestController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//calculate-group",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/calculate-group",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//calculate-total",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/calculate-total",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//replay-check-answer",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/replay-check-answer",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//update-group-indicator",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/update-group-indicator",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//update-group-indicator-single",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/update-group-indicator-single",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//send-mq",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/send-mq",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppGroupMemberCharacterController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppGroupMemberCharacterController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppGroupMemberCharacterController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppGroupMemberCharacterController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/character/list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/character/list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/member/character/assign",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/member/character/assign",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/member/character/list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/member/character/list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//secman/orgs",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/secman/orgs",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppOrgController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppOrgController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppOrgController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppOrgController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//tree",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/tree",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppPeriodNotificationController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppPeriodNotificationController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppPeriodNotificationController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppPeriodNotificationController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//experiment/period/notification/list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/experiment/period/notification/list",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/AppReportController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AppReportController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:AppReportController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AppReportController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//preview-data",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/preview-data",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//create-pdf",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/create-pdf",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "component/CrwPlatformAppController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CrwPlatformAppController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/@Controller:CrwPlatformAppController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CrwPlatformAppController",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface/MqMessageService",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "MqMessageService",
+      "domain": "secman-student"
+    },
+    {
+      "slug": "interface//system/aigc-config",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/aigc-config",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AigcConfigController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AigcConfigController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:AigcConfigController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AigcConfigController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//test-connection",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/test-connection",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/archive",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/archive",
+      "domain": "system"
+    },
+    {
+      "slug": "component/ArchiveController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ArchiveController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:ArchiveController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:ArchiveController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//batchDelete",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/batchDelete",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/assess",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/assess",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AssessController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AssessController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:AssessController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AssessController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/auth",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/auth",
+      "domain": "system"
+    },
+    {
+      "slug": "component/AuthController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AuthController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:AuthController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:AuthController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//get-tenant-id-by-username",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-tenant-id-by-username",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//login",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/login",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//logout",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/logout",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//refresh-token",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/refresh-token",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//get-permission-info",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-permission-info",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//register",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/register",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//sms-login",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/sms-login",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//send-sms-code",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/send-sms-code",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//reset-password",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/reset-password",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//social-auth-redirect",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/social-auth-redirect",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//social-login",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/social-login",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/business/bind",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/business/bind",
+      "domain": "system"
+    },
+    {
+      "slug": "component/BusinessBindController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "BusinessBindController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:BusinessBindController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:BusinessBindController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/create",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/create",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//get-character-count",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/get-character-count",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/business",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/business",
+      "domain": "system"
+    },
+    {
+      "slug": "component/BusinessController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "BusinessController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:BusinessController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:BusinessController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//copy",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/copy",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/business/institution",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/business/institution",
+      "domain": "system"
+    },
+    {
+      "slug": "component/BusinessInstitutionController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "BusinessInstitutionController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:BusinessInstitutionController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:BusinessInstitutionController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//file/create",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/create",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//file/create-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/create-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//file/delete",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/delete",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//file/delete-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/delete-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//file/get",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/file/get",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/create-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/create-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/delete",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/delete",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/delete-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/delete-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/get",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/get",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//question/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/question/page",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/captcha",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/captcha",
+      "domain": "system"
+    },
+    {
+      "slug": "component/CaptchaController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaptchaController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:CaptchaController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaptchaController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//check",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/check",
+      "domain": "system"
+    },
+    {
+      "slug": "component/CaseArrangementController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaseArrangementController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:CaseArrangementController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaseArrangementController",
+      "domain": "system"
+    },
+    {
+      "slug": "component/CaseBusinessBindController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaseBusinessBindController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:CaseBusinessBindController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaseBusinessBindController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/create-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/create-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//operate/create",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/operate/create",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/update",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/update",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/delete",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/delete",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/delete-list",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/delete-list",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/get",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/get",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/page",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/page",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//bind/get-character-count",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/bind/get-character-count",
+      "domain": "system"
+    },
+    {
+      "slug": "interface//system/case/business/function",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "/system/case/business/function",
+      "domain": "system"
+    },
+    {
+      "slug": "component/CaseBusinessFunctionController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaseBusinessFunctionController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:CaseBusinessFunctionController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaseBusinessFunctionController",
+      "domain": "system"
+    },
+    {
+      "slug": "component/CaseGridController",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "CaseGridController",
+      "domain": "system"
+    },
+    {
+      "slug": "interface/@Controller:CaseGridController",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "@Controller:CaseGridController",
+      "domain": "system"
+    },
+    {
+      "slug": "evidence/code/eps/index",
+      "type": "architecture",
+      "confidence": "EXTRACTED",
+      "title": "eps code index",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/component",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "component",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/interface",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interface",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/error",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "error",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/relation-gateway",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-gateway",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/relation-infra",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-infra",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/relation-secman-student",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-secman-student",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/relation-system",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-system",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/relation-framework",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-framework",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/interfaces",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interfaces",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/eps/dependency-paths",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "dependency-paths",
+      "domain": "code-knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/component",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/interface",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/error",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/relation-gateway",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/relation-infra",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/relation-secman-student",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/relation-system",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/relation-framework",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/interfaces",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/eps/index",
+      "to": "evidence/code/eps/dependency-paths",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    }
+  ]
+}
