@@ -1,12 +1,11 @@
 username: sunyj-003
-updatedAt: 2026-09-02T16:32:25.873Z
+updatedAt: 2026-09-03T07:16:03.529Z
 skills:
   research:
     count: 1
     lastUsed: 2026-09-02T14:08:25.278Z
-prompts: 15
-tokens:
-  input: 0
-  output: 0
-  cacheRead: 0
-  cacheCreation: 0
+interventions:
+  sessions: 1
+  interrupt: 0
+  toolReject: 0
+  correction: 0
